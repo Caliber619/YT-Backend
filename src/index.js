@@ -41,7 +41,7 @@ import { DB_NAME } from "./constants.js"
 import express from "express"
 const app = express()
 
-// -------------------------
+// -------------------------h
 // function connectDB(){}
 // connectDB()
 // -- instead of this approach we can use iife ()() below approach
@@ -53,7 +53,7 @@ const app = express()
             throw error
         })
 
-        app.listen(process.env.PORT, ()=>{
+        app.listen(process.env.PORT || 8000, ()=>{
             console.log(`App is listening on port ${process.env.PORT}`);
         })
 
