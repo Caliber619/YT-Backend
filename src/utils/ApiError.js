@@ -1,4 +1,5 @@
 class APIError extends Error{
+    // constructor(){}
     constructor(
         statusCode,
         message= "Something went wrong",
@@ -21,3 +22,4 @@ class APIError extends Error{
 }
 
 export {APIError}
+// this is to extend error class and handle errors like we handled asynchronous code
