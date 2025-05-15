@@ -84,9 +84,9 @@
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": 4188.007767034389,
-			"y": 8718.893633129557,
-			"lastActivityTimestamp": 1746983974452,
+			"x": 1163.8802186992107,
+			"y": 11734.204719464939,
+			"lastActivityTimestamp": 1747311656164,
 			"meta": {}
 		},
 		{
@@ -557,9 +557,9 @@
 			"meta": {}
 		},
 		{
-			"x": -3220.6237721240273,
-			"y": -7695.217883080855,
-			"z": 0.38371527145373824,
+			"x": 575.5581470942163,
+			"y": -10960.041298826576,
+			"z": 0.24697627380867732,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
@@ -628,12 +628,12 @@
 			"typeName": "shape"
 		},
 		{
-			"editingShapeId": null,
+			"editingShapeId": "shape:hHUt7jEnxPUO1oSXuh9Zh",
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:gjcx861imV3QG_Me04wT7"
+				"shape:hHUt7jEnxPUO1oSXuh9Zh"
 			],
-			"hoveredShapeId": "shape:gjcx861imV3QG_Me04wT7",
+			"hoveredShapeId": "shape:hHUt7jEnxPUO1oSXuh9Zh",
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -641,6 +641,123 @@
 			"id": "instance_page_state:page:page",
 			"pageId": "page:page",
 			"typeName": "instance_page_state"
+		},
+		{
+			"x": -49.19179620860109,
+			"y": 11601.3985513729,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:hHUt7jEnxPUO1oSXuh9Zh",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "xl",
+				"w": 1326.112548828125,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Install- : Mongoose-aggregate-paginate-v2"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Learn-: Bcrypt or Bcryptjs (TO HASH OUR PASSWORDS)"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Learn-: jsonWebTokens (to manage Tokens or payload)"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "JWT is a bearer token(jiske paas h usko data bhej denge)"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Make Video and User Data Model"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "then use Bcrypt to encrypt using hooks (pre and post)"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "aX4gQ",
+			"typeName": "shape"
 		},
 		{
 			"x": 144.59039606080137,
@@ -1888,7 +2005,7 @@
 				"x": 0,
 				"y": 0,
 				"w": 720,
-				"h": 702.4000244140625
+				"h": 429.6000061035156
 			},
 			"insets": [
 				false,
