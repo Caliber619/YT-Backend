@@ -48,12 +48,12 @@ const userSchema = new Schema(
     },
     {timestamps:true}
 );
-
+ 
 userSchema.pre("save", async function(next){
     if(!this.isModified("password")) return next();
     //agar modified nahi hua hai to seedha next() call krdo otherwise
 
-    this.password = bcrypt.hash(this.password, 10)
+    this.password = await bcrypt.hash(this.password, 10)
     next()
 }) //pre hook lagaege event pe data save hone se phle and we get a callback
 
