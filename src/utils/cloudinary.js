@@ -19,8 +19,8 @@ cloudinary.config({
 //method banake krte h file ke liye(ek local-path accept krra ho function)
 const uploadOnCloudinary = async(localFilePath) =>{
     try {
-        if(!localFilePath) return null
-        // upload the file on cloudinary
+        if(!localFilePath) return null  // means the file path is not present
+        // upload the file on cloudinary if the filePath is not present
         const response = await cloudinary.uploader.upload(localFilePath, {
             resource_type: "auto"
         })
@@ -33,3 +33,5 @@ const uploadOnCloudinary = async(localFilePath) =>{
         return null;
     }
 }
+
+export {uploadOnCloudinary}
