@@ -26,10 +26,14 @@ app.use(cookieParser())
 
 
 
+// routes---- 
+import userRouter from './routes/user.routes.js'
 
 
 
-
+// routes declaration----
+// app.get ki help se hum kaam krre the yhi pe route and controller likh re the but idhar ab app.use likhege(so we will need middleware)
+app.use("/api/v1/users", userRouter)   //api and version standard practice hai
 
 
 export { app }
